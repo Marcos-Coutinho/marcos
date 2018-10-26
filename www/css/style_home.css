@@ -4,6 +4,12 @@
 	margin:0px 0px 0px 0px;
 	height:100%;
 }
+.iframe_img{
+	text-align:center;
+	background:;
+	margin:0px 0px 0px 0px;
+
+}
 
 /*-- botão geral --*/
 #btn_centro {
@@ -12,6 +18,42 @@
 	text-align:center;
 	margin-top:20px;
 }
+.bt {
+	border:0px solid #25692A;
+	border-radius:0px;
+	width:;
+	cursor:pointer;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:13px;
+	padding:6px 30px;
+	text-decoration:none;
+	margin-top:20px;
+	background-color:;
+	outline: none;
+}
+.bt-az {
+	background:#1cc924;
+	box-shadow:inset 0px 0px 0px 0px #fff;
+	color:#fff;
+	text-shadow:0px 0px 0px #000;  
+}
+
+.bt-az:hover {
+	background:#1cc924;
+	color:#fff;
+	text-shadow:0px 0px 0px #000;
+	outline: none;
+}
+
+.bt:active {
+	position:relative;
+	top:2px;
+	color:#fff;
+	outline: none;
+}
+
+/*
 .bt {
 	border:0px solid #25692A;
 	border-radius:4px;
@@ -46,6 +88,7 @@
 	color:#fff;
 	outline: none;
 }
+*/
 /*-- //botão geral --*/
 
 /*-- banner inicial --*/
@@ -88,6 +131,14 @@
 	font-size:1.5em;
 	color:#212121;
 }
+.infor_curiosidades{
+	padding:0 0;
+	margin-top: 2em;
+}
+.infor_curiosidades h3{
+	font-size:1.5em;
+	color:#212121;
+}
 .infor_dicas{
 	padding:0 0;
 	margin-top: 2em;
@@ -114,7 +165,7 @@
 }
 /*-- //titulos --*/
 
-/*-- //subtitulos --*/
+/*-- subtitulos --*/
 .subtitulo_f_branco{
 	text-align:center;
 	color:#dd0505;
@@ -146,7 +197,7 @@
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	margin-top:60px;
+	margin-top:0px;
 }
 .cardapio{
 	padding:3em 0;
@@ -220,7 +271,7 @@
 }
 
 @media (max-width:1024px){
-	.iframe_im{
+	.iframe_img{
 		background:;
 		margin:0px 0px 0px 0px;
 		visibility:none;

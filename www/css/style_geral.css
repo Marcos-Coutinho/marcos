@@ -162,7 +162,7 @@ p,ul li,ol li{
     padding: 5px 30px;
 	outline: none;
 	cursor: pointer;
-	border-radius: 8px;
+	border-radius: 0px;
 }
 .toggleMenu a{
 	outline:none;
